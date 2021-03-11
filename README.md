@@ -7,7 +7,7 @@
 |**Histórico de Revisão**|
 | :- |
 
-Versão | Data | Descrição da Revisão | Autor
+Versão | Data | Descrição da Revisão | Autores
 ------------ | ------------- | ------------- | -------------
 V1 | 11/03/2021 | Primeira versão do projeto | Mauro Bastos Ronilson Pinho e Charles Pimentel
 
@@ -43,7 +43,7 @@ V1 | 11/03/2021 | Primeira versão do projeto | Mauro Bastos Ronilson Pinho e Ch
 | :- |
 |*240  horas de trabalho – 60 horas / semana = 4 semanas*|
 
-|**10 – Equipe de Gestão do projeto**|
+|**10 – Equipe de Gestão do Projeto**|
 | :- |
 
 Função no Projeto | Nome | Lotação | Telefone | E-mail
