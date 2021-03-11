@@ -11,17 +11,13 @@ Versão | Data | Descrição da Revisão | Autor
 ------------ | ------------- | ------------- | -------------
 V1 | 11/03/2021 | Primeira versão do projeto | Mauro Bastos Ronilson Pinho e Charles Pimentel
 
-
-
-|**1 – Nome do Projeto**|**2.1 – Código do Projeto**|
+|**1 – Nome do Projeto**|**2 – Código do Projeto**|
 | :- | :- |
 |**Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|*PROJ\_QUEIMA\_BR*|
-
 
 |**3 – Nome do Gerente do Projeto**|
 | :- |
 |*Mauro Penha Bastos, Ronilson Pinho e Charles Pimentel*|
-
 
 |**4 – Alinhamento estratégico - Abstract**|
 | :- |
@@ -55,7 +51,6 @@ Função no Projeto | Nome | Lotação | Telefone | E-mail
 Orientadores | Sérgio Serra e Jorge Zavaleta | UFRJ - NCE | 21 | E-mail
 Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.com, ronilsonpinho@gmail.com, pimentelufrj@gmail.com
 
-
 |**11 – Restrições**|
 | :- |
 |<p>1. *A conclusão do projeto ocorrerá na segunda semana de 04/2021*</p><p>2. *Não será possível fazer a parte de detecção de queimada natural ou não, se não conseguirmos um dataset de chuvas com uma chave de conexão com o dataset de queimadas*</p><p>3. *Deverá haver um protótipo funcional e rodando antes da apresentação final do projeto*</p>|
@@ -64,6 +59,3 @@ Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.co
 |<h5>**16 – Documentos de Referência**</h5>|
 | :- |
 |<p>Lei nº xxxxxxx dos Institutos Federais de 29 de dezembro de 2008.<br>http://www.imp.gov.br</p><p>Instrução Normativa nº 04 de 12 de novembro de 2010.<br>http://www.governoeletronico.gov.br/sisp-conteudo/nucleo-de-contratacoes-de-ti/modelo-de-contratacoes-normativos-e-documentos-de-referencia/instrucao-normativa-mp-slti-no04/</p>|
-
-`		                                                                                       `Página   PAGE 4 de  NUMPAGES   \\* MERGEFORMAT 4 
-
