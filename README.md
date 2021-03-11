@@ -1,7 +1,7 @@
 ﻿|![](Aspose.Words.cadbdee8-61c8-4d0f-90ff-84bfc9ba6aaf.001.png)|**TERMO DE ABERTURA DO PROJETO** |
 | :- | :-: |
 ||**NOME DO PROJET: Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|
-||**CÓDIGO DO PROJETO: 001**|
+||**CÓDIGO D PROJETO: 001**|
 
 |<p># ***Termo de Abertura do Projeto***</p><p>Projeto: xxx</p><p>
 xx/xx/xxxx</p><p></p><p></p><p>**Histórico de revisão**</p><p>**Histórico de revisão**</p>|
