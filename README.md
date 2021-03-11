@@ -15,7 +15,7 @@ V1 | 11/03/2021 | Primeira versão do projeto | Mauro Bastos Ronilson Pinho e Ch
 | :- | :- |
 |**Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|*PROJ\_QUEIMA\_BR*|
 
-|**3 – Nome do Gerente do Projeto**|
+|**3 – Nome dos Gerentes do Projeto**|
 | :- |
 |*Mauro Penha Bastos, Ronilson Pinho e Charles Pimentel*|
 
