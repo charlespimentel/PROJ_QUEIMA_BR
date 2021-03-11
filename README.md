@@ -6,8 +6,9 @@
 |<p># ***Termo de Abertura do Projeto***</p><p>Projeto: xxx</p><p>
 xx/xx/xxxx</p><p></p><p></p><p>**Histórico de revisão**</p><p>**Histórico de revisão**</p>|
 | :- |
-|**Versão**|**Data**|**Descrição da Revisão**|**Autor**|
-|*V1*|*11/03/2021*|*Primeira versão do projeto*|*Mauro Bastos Ronilson Pinho e Charles Pimentel*|
+| **Versão**  |**Data**   |  **Descrição da Revisão** |   **Autor** |
+| ------------ | ------------ | ------------ | ------------ |
+|  V1 | 11/03/2021  |  Primeira versão do projeto | Mauro Bastos Ronilson Pinho e Charles Pimentel  |
 
 
 |**1 – Nome do Projeto**|**2.1 – Código do Projeto**|
