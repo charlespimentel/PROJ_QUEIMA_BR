@@ -3,12 +3,12 @@
 ||**NOME DO PROJET: Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|
 ||**CÓDIGO D PROJETO: 001**|
 
-|<p># ***Termo de Abertura do Projeto***</p><p>Projeto: xxx</p><p>
-xx/xx/xxxx</p><p></p><p></p><p>**Histórico de revisão**</p><p>**Histórico de revisão**</p>|
+|**Histórico de revisão**|
 | :- |
 | **Versão**  |**Data**   |  **Descrição da Revisão** |   **Autor** |
 | ------------ | ------------ | ------------ | ------------ |
 |  V1 | 11/03/2021  |  Primeira versão do projeto | Mauro Bastos Ronilson Pinho e Charles Pimentel  |
+
 
 
 |**1 – Nome do Projeto**|**2.1 – Código do Projeto**|
