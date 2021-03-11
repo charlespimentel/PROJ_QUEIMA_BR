@@ -4,7 +4,9 @@
 ||**CÓDIGO D PROJETO: 001**|
 
 
-Histórico de Revisão
+|**Histórico de Revisão**|
+| :- |
+
 Versão | Data | Descrição da Revisão | Autor
 ------------ | ------------- | ------------- | -------------
 V1 | 11/03/2021 | Primeira versão do projeto | Mauro Bastos Ronilson Pinho e Charles Pimentel
