@@ -56,6 +56,6 @@ Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.co
 |<p>1. *A conclusão do projeto ocorrerá na segunda semana de 04/2021*</p><p>2. *Não será possível fazer a parte de detecção de queimada natural ou não, se não conseguirmos um dataset de chuvas com uma chave de conexão com o dataset de queimadas*</p><p>3. *Deverá haver um protótipo funcional e rodando antes da apresentação final do projeto*</p>|
 
 
-|<h5>**16 – Documentos de Referência**</h5>|
+|<h5>**12 – Documentos de Referência**</h5>|
 | :- |
 |<p>Lei nº xxxxxxx dos Institutos Federais de 29 de dezembro de 2008.<br>http://www.imp.gov.br</p><p>Instrução Normativa nº 04 de 12 de novembro de 2010.<br>http://www.governoeletronico.gov.br/sisp-conteudo/nucleo-de-contratacoes-de-ti/modelo-de-contratacoes-normativos-e-documentos-de-referencia/instrucao-normativa-mp-slti-no04/</p>|
