@@ -1,9 +1,8 @@
 
-﻿|![](Aspose.Words.cadbdee8-61c8-4d0f-90ff-84bfc9ba6aaf.001.png)|**TERMO DE ABERTURA DO PROJETO** |
+|![](Aspose.Words.cadbdee8-61c8-4d0f-90ff-84bfc9ba6aaf.001.png)|**TERMO DE ABERTURA DO PROJETO** |
 | :- | :-: |
 ||**NOME DO PROJETO: Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|
 ||**CÓDIGO DO PROJETO: 001**|
-
 
 |**Histórico de Revisão**|
 | :- |
@@ -30,6 +29,7 @@ V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Cha
 
 |**5 – Modelo de Dados do Experimento**|
 | :- |
+|<p>![](Modelo.de.Dados.do.Experimento.png)</p>|
 
 |**6 – Descrição do DataSet e suas fontes**|
 | :- |
@@ -84,11 +84,11 @@ Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.co
 *
 *
 *
+
 |![](Aspose.Words.cadbdee8-61c8-4d0f-90ff-84bfc9ba6aaf.001.png)|**TERMO DE ABERTURA DO PROJETO** |
 | :- | :-: |
 ||**NOME DO PROJETO: Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|
 ||**CÓDIGO DO PROJETO: 001**|
-
 
 |**Histórico de Revisão**|
 | :- |
