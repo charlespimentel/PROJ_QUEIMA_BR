@@ -43,11 +43,16 @@ V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Cha
 | :- |
 |<p>*WBS do Projeto ( EAP – Estrutura Analítica do Projeto)*</p><p>*A EAP vai ser finalizada na semana de 25/03/2021*</p>|
 
-|**9 – Prazo do Projeto**|
+|**9 – Estimativa de Usuários**|
+| :- |
+|<p>*58 milhões de pessoas afetadas pelas queimadas diretamente nos diversos estados do Brasil*</p><p>*Fonte: IBGE mar/2021  - xxxxxxxx*</p>|
+
+|**10 – Prazo do Projeto**|
 | :- |
 |*240  horas de trabalho – 60 horas / semana = 4 semanas*|
 
-|**10 – Equipe de Gestão do Projeto**|
+
+|**11 – Equipe de Gestão do Projeto**|
 | :- |
 
 Função no Projeto | Nome | Lotação | Telefone | E-mail
@@ -55,14 +60,28 @@ Função no Projeto | Nome | Lotação | Telefone | E-mail
 Orientadores | Sérgio Serra e Jorge Zavaleta | UFRJ - NCE | 21 | E-mail
 Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.com, ronilsonpinho@gmail.com, pimentelufrj@gmail.com
 
-|**11 – Restrições**|
-| :- |
-|<p>1. *A conclusão do projeto ocorrerá na segunda semana de 04/2021*</p><p>2. *Não será possível fazer a parte de detecção de queimada natural ou não, se não conseguirmos um dataset de chuvas com uma chave de conexão com o dataset de queimadas*</p><p>3. *Deverá haver um protótipo funcional e rodando antes da apresentação final do projeto*</p>|
 
-
-|<h5>**12 – Documentos de Referência**</h5>|
+|**12 – Scripts do Projeto**|
 | :- |
-|<p>Lei nº xxxxxxx dos Institutos Federais de 29 de dezembro de 2008.<br>http://www.imp.gov.br</p><p>Instrução Normativa nº 04 de 12 de novembro de 2010.<br>http://www.governoeletronico.gov.br/sisp-conteudo/nucleo-de-contratacoes-de-ti/modelo-de-contratacoes-normativos-e-documentos-de-referencia/instrucao-normativa-mp-slti-no04/</p>|
+|*Arquivos*|
+
+|**13 – Scripts Python**|
+| :- |
+|*Arquivos*|
+
+|**14 – Modelo de Script postgreSql para captura de TXT**|
+| :- |
+|*Arquivos*|
+
+|**15 – Restrições**|
+| :- |
+|<p>*1.A conclusão do projeto ocorrerá na segunda semana de 04/2021.*</p><p>*2.As detecções de queimadas futuras terão um resultado probabilístico e devemos entender nos próximos dias se os dados atuais conseguem gerar essa previsão.*</p><p>*3.Deverá haver um protótipo funcional e rodando antes da apresentação final do projeto.*</p>|
+
+|**16 – Documentos de Referência**|
+| :- |
+|<p>Lei nº xxxxxxx dos Institutos Federais de 29 de dezembro de 2008.http://www.imp.gov.br</p>
+<p>Instrução Normativa nº 04 de 12 de novembro de 2010.</p>
+<p>http://www.governoeletronico.gov.br/sisp-conteudo/nucleo-de-contratacoes-de-ti/modelo-de-contratacoes-normativos-e-documentos-de-referencia/instrucao-normativa-mp-slti-no04/*</p>|
 
 *
 *
