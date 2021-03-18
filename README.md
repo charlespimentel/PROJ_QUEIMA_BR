@@ -79,9 +79,7 @@ Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.co
 
 |**16 – Documentos de Referência**|
 | :- |
-|<p>Lei nº xxxxxxx dos Institutos Federais de 29 de dezembro de 2008.http://www.imp.gov.br</p>
-<p>Instrução Normativa nº 04 de 12 de novembro de 2010.</p>
-<p>http://www.governoeletronico.gov.br/sisp-conteudo/nucleo-de-contratacoes-de-ti/modelo-de-contratacoes-normativos-e-documentos-de-referencia/instrucao-normativa-mp-slti-no04/*</p>|
+|<p>Lei nº xxxxxxx dos Institutos Federais de 29 de dezembro de 2008.http://www.imp.gov.br</p><p>Instrução Normativa nº 04 de 12 de novembro de 2010.</p><p>http://www.governoeletronico.gov.br/sisp-conteudo/nucleo-de-contratacoes-de-ti/modelo-de-contratacoes-normativos-e-documentos-de-referencia/instrucao-normativa-mp-slti-no04/*</p>|
 
 *
 *
