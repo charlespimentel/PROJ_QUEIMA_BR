@@ -1,0 +1,50 @@
+A) Carga em Postgres da tabela bioma:
+1.	import gzip
+2.	import pandas as pd
+3.	f = gzip.open("“incendios_em_unidades_de_conservacao_federal.csv.gz", "r")
+4.	df = pd.read_csv(f)
+5.	import psycopg2
+6.	import psycopg2.extras
+7.	conn = psycopg2.connect(
+8.	        host = "localhost",
+9.	        database="queimadas2",
+10.	        user="mauro",
+11.	        password="Jalap%21"
+12.	    )
+13.	def create_table(cursor) -> None:
+14.	    cursor.execute("""
+15.	    DROP TABLE IF EXISTS bioma;
+16.	    CREATE UNLOGGED TABLE bioma(
+17.	    codigo_cnuc          int  NOT NULL,
+18.	    nome_cnuc            varchar(40) NULL, 
+19.	    grupo_protecao       varchar(4) NULL,
+20.	    icmbio               varchar(20) NULL,
+21.	    bipoma_referencial   varchar(20) NULL,
+22.	    categoria_uc         varchar(4) NULL,
+23.	    ano_criacao          int4 NULL,
+24.	    area_uc              int4 NULL
+25.	    );
+26.	    """)
+27.	
+28.	with conn:
+29.	    with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
+30.	        create_table(cur)
+31.	
+32.	
+33.	df.to_csv('incendios_em_unidades_de_conservacao_federal.csv',index=False,encoding='utf-8')
+34.	
+35.	
+36.	def send_csv_to_psql(connection,csv,table_):
+37.	    sql = "COPY %s FROM STDIN WITH CSV HEADER DELIMITER AS ','"
+38.	    file = open(csv,"r")
+39.	    table = table_
+40.	    with conn:
+41.	        with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
+42.	            cur.execute("truncate " + table + ";") #avoiding uploading duplicate data
+43.	            cur.copy_expert(sql=sql % table, file=file)
+44.	            conn.commit()
+45.	        return conn.commit()
+46.	
+47.	send_csv_to_psql(conn,'data/incendios_em_unidades_de_conservacao_federal.csv ',incendios_inpe_br')
+48.	
+49.	conn.close()

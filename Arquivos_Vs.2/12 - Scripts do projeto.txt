@@ -1,0 +1,124 @@
+1 – Definição do Banco postgreSql:
+
+CREATE TABLE apa
+( 	categoria_uc         varchar(4) NOT NULL,
+	nomeclatura_uc       varchar(20) NULL);
+ALTER TABLE apa
+ADD PRIMARY KEY (categoria_uc);
+
+CREATE TABLE biomas
+(	codigo_cnuc          int4 NOT NULL,
+	nome_cnuc            varchar(40) NULL,
+	grupo_protecao       varchar(4) NULL,
+	icmbio               varchar(20) NULL,
+	bipoma_referencial   varchar(20) NULL,
+	categoria_uc         varchar(4) NULL,
+	ano_criacao          int4 NULL,
+	area_uc              int4 NULL);
+ALTER TABLE biomas
+ADD PRIMARY KEY (codigo_cnuc);
+
+CREATE TABLE chuvas
+(	estado               varchar(25) NOT NULL,
+	municipio            varchar(60) NOT NULL,
+	bioma                varchar(20) NOT NULL DEFAULT 'Sem Bioma'::character varying,
+	latitude             numeric(10,2) NOT NULL,
+	longitude            numeric(10,2) NOT NULL,
+	diassemchuva         int4 NULL,
+	precipitacao         int4 NULL,
+	riscofogo            numeric(3,2) NULL,
+	ano                  INTEGER NOT NULL);
+ALTER TABLE chuvas
+ADD PRIMARY KEY (estado,municipio,bioma,ano);
+
+CREATE TABLE chuvas_lati_long
+(	estado               varchar(25) NOT NULL,
+	municipio            varchar(60) NOT NULL,
+	bioma                varchar(20) NULL DEFAULT 'Sem Bioma'::character varying,
+	latitude             numeric(10,2) NOT NULL,
+	longitude            numeric(10,2) NOT NULL,
+	diassemchuva         INTEGER NULL,
+	precipitacao         INTEGER NULL,
+	riscofogo            INTEGER NULL);
+
+CREATE TABLE experimento
+(	ano_evento           int4 NOT NULL,
+	codigo_cnuc          int4 NOT NULL,
+	estado               varchar(25) NOT NULL,
+	municipio            varchar(60) NOT NULL,
+	bioma                varchar(20) NOT NULL,
+	ano                  INTEGER NOT NULL,
+	area_queimada        CHAR(18) NULL,
+	grupo_protecao       CHAR(18) NULL,
+	icmbio               CHAR(18) NULL,
+	ano_criacao          CHAR(18) NULL,
+	area_uc              CHAR(18) NULL,
+	categoria_uc         varchar(4) NULL);
+ALTER TABLE experimento
+ADD PRIMARY KEY (codigo_cnuc,ano_evento,estado,municipio,bioma,ano);
+
+CREATE TABLE queima_Excel
+(	codigo_CNUC          varchar(255) NULL,
+	nome_cnuc            varchar(255) NULL,
+	categoria_uc         varchar(255) NULL,
+	Categoria_uc_nomenclatura varchar(255) NULL,
+	grupo_protecao       varchar(255) NULL,
+	ano_criacao          float8 NULL,
+	icmbio               varchar(255) NULL,
+	area_uc              float8 NULL,
+	bioma_referencial    varchar(255) NULL,
+	area_queimada_2019   float8 NULL,
+	ano_queima_2019      float8 NULL,
+	area_queimada_2018   float8 NULL,
+	ano_queima_2018      varchar(255) NULL,
+	area_queimada_2017   float8 NULL,
+	ano_queima_2017      varchar(255) NULL,
+	area_queimada_2016   float8 NULL,
+	ano_queima_2016      varchar(255) NULL,
+	area_queimada_2015   float8 NULL,
+	ano_queima_2015      varchar(255) NULL,
+	area_queimada_2014   float8 NULL,
+	ano_queima_2014      varchar(255) NULL,
+	area_queimada_2013   float8 NULL,
+	ano_queima_2013      varchar(255) NULL,
+	area_queimada_2012   float8 NULL,
+	ano_queima_2012      varchar(255) NULL);
+
+CREATE TABLE queimadas_ano
+(	ano_evento           int4 NOT NULL,
+	area_queimada        int4 NULL,
+	codigo_cnuc          int4 NOT NULL);
+ALTER TABLE queimadas_ano
+ADD PRIMARY KEY (codigo_cnuc,ano_evento);
+
+CREATE TABLE relacao_chuva
+(	codigo_cnuc          int4 NOT NULL,
+	estado               varchar(25) NOT NULL,
+	municipio            varchar(60) NOT NULL,
+	bioma                varchar(20) NOT NULL,
+	ano                  INTEGER NOT NULL);
+ALTER TABLE relacao_chuva
+ADD PRIMARY KEY (codigo_cnuc,estado,municipio,bioma,ano);
+
+*/                           Restrições                                                                                /*
+
+ALTER TABLE biomas
+ADD CONSTRAINT r_2 FOREIGN KEY (categoria_uc) REFERENCES apa (categoria_uc);
+
+ALTER TABLE experimento
+ADD CONSTRAINT R_11 FOREIGN KEY (codigo_cnuc, ano_evento) REFERENCES queimadas_ano (codigo_cnuc, ano_evento);
+
+ALTER TABLE experimento
+ADD CONSTRAINT R_12 FOREIGN KEY (codigo_cnuc, estado, municipio, bioma, ano) REFERENCES relacao_chuva (codigo_cnuc, estado, municipio, bioma, ano);
+
+ALTER TABLE experimento
+ADD CONSTRAINT R_13 FOREIGN KEY (categoria_uc) REFERENCES apa (categoria_uc);
+
+ALTER TABLE queimadas_ano
+ADD CONSTRAINT r_1 FOREIGN KEY (codigo_cnuc) REFERENCES biomas (codigo_cnuc);
+
+ALTER TABLE relacao_chuva
+ADD CONSTRAINT R_9 FOREIGN KEY (codigo_cnuc) REFERENCES biomas (codigo_cnuc);
+
+ALTER TABLE relacao_chuva
+ADD CONSTRAINT R_10 FOREIGN KEY (estado, municipio, bioma, ano) REFERENCES chuvas (estado, municipio, bioma, ano);

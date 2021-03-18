@@ -1,0 +1,14 @@
+COPY chuvas
+(
+    	Estado,
+	Municipio,
+	bioma,
+	latitude,
+	longitude,
+	diasSemChuva,
+	precipitacao,
+	riscofogo  
+)
+FROM 'C:/Dados_C/Doutorado/2020/2020_III/chuva.txt'
+DELIMITER ';'
+CSV HEADER;
