@@ -29,8 +29,7 @@ V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Cha
 |<p>*Resolver a dificuldade de entender o quanto as queimadas no Brasil são causadas pelo homem e quanto são naturais, e determinar a probabilidade de queimadas para os próximos cinco anos nos diversos biomas estudados.*</p><p>- *Predizer em forma de probabilidade, quando vai haver queimada baseado nos eventos passados;*</p><p>- *Determinar através de um método supervisionado os fatores que mais contribuem para as queimadas, acompanhados de suas respectivas probabilidades, usando árvore de classificação;*</p><p>- *Determinar através de um método supervisionado se as queimadas, são naturais ou não acompanhados de suas respectivas probabilidades, usando árvore de classificação;*</p><p>- *Determinar através de um método não supervisionado se o padrão de queimada é natural ou não (Redes Neurais);*</p><p>- *Prover para o Brasil um método de predição de queimadas pera os próximos cincos anos usando árvore de regressão.*</p><p>- *Reduzir queimadas, trazer credibilidade para o Brasil sobre a gestão do meio ambiente.*</p>|
 
 |**5 – Modelo de Dados do Experimento**|
-| :- |
-﻿|![](Modelo.de.Dados.do.Experimento.png)| 
+|![](Modelo.de.Dados.do.Experimento.png)| 
 
 |**6 – Descrição do DataSet e suas fontes**|
 | :- |
