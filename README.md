@@ -30,6 +30,7 @@ V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Cha
 
 |**5 – Modelo de Dados do Experimento**|
 | :- |
+﻿|![](Modelo.de.Dados.do.Experimento.png)| 
 
 |**6 – Descrição do DataSet e suas fontes**|
 | :- |
