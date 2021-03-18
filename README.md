@@ -53,6 +53,7 @@ V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Cha
 
 |**11 – Equipe de Gestão do Projeto**|
 | :- |
+
 Função no Projeto | Nome | Lotação | Telefone | E-mail
 ------------ | ------------- | ------------- | ------------- | -------------
 Orientadores | Sérgio Serra e Jorge Zavaleta | UFRJ - NCE | 21 | E-mail
