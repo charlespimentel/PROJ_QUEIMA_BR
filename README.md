@@ -1,9 +1,8 @@
 
-﻿|![](Aspose.Words.cadbdee8-61c8-4d0f-90ff-84bfc9ba6aaf.001.png)|**TERMO DE ABERTURA DO PROJETO** |
+|![](Aspose.Words.cadbdee8-61c8-4d0f-90ff-84bfc9ba6aaf.001.png)|**TERMO DE ABERTURA DO PROJETO** |
 | :- | :-: |
 ||**NOME DO PROJETO: Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|
 ||**CÓDIGO DO PROJETO: 001**|
-
 
 |**Histórico de Revisão**|
 | :- |
@@ -84,11 +83,11 @@ Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.co
 *
 *
 *
+
 |![](Aspose.Words.cadbdee8-61c8-4d0f-90ff-84bfc9ba6aaf.001.png)|**TERMO DE ABERTURA DO PROJETO** |
 | :- | :-: |
 ||**NOME DO PROJETO: Determinação da natureza das queimadas, se provocada pelo homem, se ocorreu naturalmente e predição de queimadas futuras no Brasil**|
 ||**CÓDIGO DO PROJETO: 001**|
-
 
 |**Histórico de Revisão**|
 | :- |
