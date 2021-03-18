@@ -51,7 +51,6 @@ V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Cha
 | :- |
 |*240  horas de trabalho – 60 horas / semana = 4 semanas*|
 
-
 |**11 – Equipe de Gestão do Projeto**|
 | :- |
 
@@ -60,18 +59,17 @@ Função no Projeto | Nome | Lotação | Telefone | E-mail
 Orientadores | Sérgio Serra e Jorge Zavaleta | UFRJ - NCE | 21 | E-mail
 Doutorandos | Mauro, Ronilson e Charles | UFRJ - NCE | 21 | auropbastos@gmail.com, ronilsonpinho@gmail.com, pimentelufrj@gmail.com
 
-
 |**12 – Scripts do Projeto**|
 | :- |
-|*Arquivos*|
+|*Arquivos_V.2*|
 
 |**13 – Scripts Python**|
 | :- |
-|*Arquivos*|
+|*Arquivos_V.2*|
 
 |**14 – Modelo de Script postgreSql para captura de TXT**|
 | :- |
-|*Arquivos*|
+|*Arquivos_V.2*|
 
 |**15 – Restrições**|
 | :- |
