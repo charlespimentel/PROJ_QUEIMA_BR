@@ -37,13 +37,11 @@ V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Cha
 
 |**7 – Experimento**|
 | :- |
+|<p>**1) Estágio atual do projeto:**</p><p>*a. Definimos o experimento.*</p><p>*b. Obtivemos os datasets de entrada .*</p><p>*c. Definimos todas as tabelas.*</p><p>*d. Carregamos RAW.*</p><p>*e. Fizemos as extrações, as transformações, e as carga  das informações necessárias.*</p><p>**2) Foram criadas 4 tabelas de trabalho, conforme modelo de dados.**</p><p>**3) As informações de proveniência foram colocadas em script Python3 no Github, conforme descrito no item 6.**</p><p>**4) Iremos gerar a tabela “experimento” a partir das demais tabelas para início dos experimentos de classificação de eventos “Naturais” ou “Provocados Pelo Homem” dependendo do resultado de cada uma das queimadas.**</p><p>**5) Na próxima semana iremos programar o experimento e preparar o experimento de predição de novas queimadas com o mesmo Dataset “experimento”.**</p>|
 
-|<p>**1)	Estágio atual do projeto:**</p><p>*a.	Definimos o experimento.*</p><p>*b.	Obtivemos os datasets de entrada .*</p><p>*c.	Definimos todas as tabelas.*</p><p>*d.	Carregamos RAW.*</p><p>*e.	Fizemos as extrações, as transformações, e as carga  das informações necessárias.*</p><p>**2)	Foram criadas 4 tabelas de trabalho, conforme modelo de dados.**</p><p>**3)	As informações de proveniência foram colocadas em script Python3 no Github, conforme descrito no item 6.**</p><p>**4)	Iremos gerar a tabela “experimento” a partir das demais tabelas para início dos experimentos de classificação de eventos “Naturais” ou “Provocados Pelo Homem” dependendo do resultado de cada uma das queimadas.**</p><p>**5)	Na próxima semana iremos programar o experimento e preparar o experimento de predição de novas queimadas com o mesmo Dataset “experimento”.**</p>|
-
-
-|**8 – Estimativa de Usuários**|
+|**8 – EAP do Projeto**|
 | :- |
-|<p>*58 milhões de pessoas afetadas pelas queimadas diretamente nos diversos estados do Brasil*</p><p>*Fonte: IBGE mar/2021  - xxxxxxxx*</p>|
+|<p>*WBS do Projeto ( EAP – Estrutura Analítica do Projeto)*</p><p>*A EAP vai ser finalizada na semana de 25/03/2021*</p>|
 
 |**9 – Prazo do Projeto**|
 | :- |
