@@ -9,7 +9,7 @@
 
 Versão | Data | Descrição da Revisão | Autores
 ------------ | ------------- | ------------- | -------------
-V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos Ronilson Pinho e Charles Pimentel
+V2 | 18/03/2021 | Segunda versão do projeto | Mauro Bastos, Ronilson Pinho e Charles Pimentel
 
 |**1 – Nome do Projeto**|**2.1 – Código do Projeto**|
 | :- | :- |
